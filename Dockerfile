@@ -1,2 +1,2 @@
-FROM tomcat:9.0
+FROM tomcat
 COPY target/MavenProject.war /usr/local/tomcat/webapps/MavenProject.war
